@@ -1,7 +1,7 @@
 //const response = await fetch(`http://localhost:5005/paradero/${codigoParadero}`);
 
 import React, { useState } from 'react';
-//import './ParaderoForm.css';
+import './ParaderoForm.css';
 //import BusCard from '../../components/BusCard';
 import BusList from '../../components/BusList';
 import SubmitButton from '../../components/SubmitButton';
@@ -38,18 +38,19 @@ const ParaderoForm = () => {
       service.buses.sort((a, b) => a.max_arrival_time - b.max_arrival_time);
     });
   };
+
   return (
     <div className="container">
-        <div className="form-container">
-            <form onSubmit={handleSubmit} className="form">
-            <CustomTextField
-              value={codigoParadero}
-              onChange={(e) => setCodigoParadero(e.target.value)}
-            />
-              <SubmitButton onClick={handleSubmit} />
-            </form>
-        </div>
-        
+       <div className="form-container">
+          <form onSubmit={handleSubmit} className="form">
+          <CustomTextField
+            value={codigoParadero}
+            onChange={(e) => setCodigoParadero(e.target.value)}
+          />
+            <SubmitButton onClick={handleSubmit} />
+          </form>
+          
+      </div>
       {error && <p>{error}</p>}
           <div className="list-container">
             {paraderoInfo && paraderoInfo.services &&  (
