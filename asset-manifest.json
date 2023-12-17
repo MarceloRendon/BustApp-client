@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/BustApp-client/static/css/main.eca410ca.css",
+    "main.js": "/BustApp-client/static/js/main.edb0c0d6.js",
+    "static/media/IBMPlexSans-MediumItalic.ttf": "/BustApp-client/static/media/IBMPlexSans-MediumItalic.b5d2aae060bd17a44e92.ttf",
+    "static/media/IBMPlexSans-BoldItalic.ttf": "/BustApp-client/static/media/IBMPlexSans-BoldItalic.2154ceb10b0ff9a38ed6.ttf",
+    "static/media/IBMPlexSans-Italic.ttf": "/BustApp-client/static/media/IBMPlexSans-Italic.3c841fd3d99ee585c6cd.ttf",
+    "static/media/IBMPlexSans-Medium.ttf": "/BustApp-client/static/media/IBMPlexSans-Medium.e1777542474b207f1248.ttf",
+    "static/media/IBMPlexSans-Regular.ttf": "/BustApp-client/static/media/IBMPlexSans-Regular.0519459d8ed646e0f90d.ttf",
+    "static/media/IBMPlexSans-Bold.ttf": "/BustApp-client/static/media/IBMPlexSans-Bold.c6aebfe2ea10a16d4a22.ttf",
+    "static/media/github.svg": "/BustApp-client/static/media/github.0cbd66d999737e5f7b16c61e1cf574dd.svg",
+    "index.html": "/BustApp-client/index.html",
+    "static/media/linkedin.svg": "/BustApp-client/static/media/linkedin.bad94964c7aca026244320b7ecf561ef.svg",
+    "main.eca410ca.css.map": "/BustApp-client/static/css/main.eca410ca.css.map",
+    "main.edb0c0d6.js.map": "/BustApp-client/static/js/main.edb0c0d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eca410ca.css",
+    "static/js/main.edb0c0d6.js"
+  ]
+}
