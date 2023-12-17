@@ -5,6 +5,10 @@ import "./App.css";
 import ListItemText from '@mui/material/ListItemText';
 import TextField from '@mui/material/TextField';
 
+
+// api https://api.xor.cl/red/bus-stop/PC131
+// api backend `http://localhost:5005/paradero/${codigoParadero}`
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -46,7 +50,7 @@ class App extends React.Component {
   fetchData = async () => {
     try {
       const { codigoParadero, paraderos } = this.state;
-      const response = await fetch(`http://localhost:5005/paradero/${codigoParadero}`);
+      const response = await fetch(`https://api.xor.cl/red/bus-stop/${codigoParadero}`);
       if (response.ok) {
         const data = await response.json();
         if (data.services && data.services.length > 0) {
